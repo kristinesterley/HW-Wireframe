@@ -1,0 +1,78 @@
+/*  Unit 1 Easy Homework
+	Kristin Esterley */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #777;
+	color: #333;
+	width: 960px;
+	font-family: "Ariel", "Helvetica",sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 15%;
+}
+
+header, section, footer {
+	background-color: #ebebeb;
+
+}
+
+header, footer, #nav {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nav, #aside, #hs, #p {
+	background-color: #ebebeb;
+}
+
+
+section, #aside {
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+section {
+	/*border: dashed red; debug*/
+	width: 495px;
+	position: absolute;
+	padding-top: 30px;
+}
+#article {
+	background-color: #777;
+	padding-top: 30px;
+	width: 90%;
+	height:200px;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	
+}
+#hs {
+	position: absolute;
+	left:5%;
+	padding:10px;
+	width: 90%;
+	top: 40%;
+}
+#p {
+	position: absolute;
+	left:5%;
+	bottom:10%;
+	width: 90%;
+	padding: 10px;
+}
+#aside {
+	float:right;
+	padding-top: 30px;
+	width: 450px;
+	margin-left: 10px;
+}
+footer {
+	clear:both;
+	overflow: auto;
+}
+
