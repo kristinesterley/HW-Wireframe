@@ -6,7 +6,6 @@
 
 body {
 	background-color: #777;
-	color: #333;
 	width: 960px;
 	font-family: "Ariel", "Helvetica",sans-serif;
 	font-size: 18px;
@@ -16,6 +15,7 @@ body {
 
 header, section, footer {
 	background-color: #ebebeb;
+	color:#777;	
 
 }
 
@@ -27,6 +27,7 @@ header, footer, #nav {
 }
 #nav, #aside, #hs, #p {
 	background-color: #ebebeb;
+	color:#777;
 }
 
 
